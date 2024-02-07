@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "json.schemas": [
+    {
+      "fileMatch": ["examples/**.json"],
+      "url": "./schemas/travelinfo.json"
+    }
+  ]
+}

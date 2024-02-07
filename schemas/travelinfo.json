@@ -1,0 +1,83 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "ns-travelinfo",
+    "title": "NS Travel information",
+    "description": "Travel information as available from http://portal.nstrein.ns.nl/nstrein:main/travelInfo",
+    "type": "object",
+    "properties": {
+        "currentStation": {
+            "title": "Current station",
+            "description": "Station where the train is currently halted. Defaults to n/a if not halted",
+            "type": "string"
+        },
+        "nextStation": {
+            "title": "Next station",
+            "type": "string"
+        },
+        "splitCombineContent": {
+            "type": "string"
+        },
+        "displayArrivalTimes": {
+            "type": "boolean"
+        },
+        "displayTravelInformation": {
+            "type": "boolean"
+        },
+        "finalDestination": {
+            "$ref": "station.json"
+        },
+        "phase": {
+            "type": "integer"
+        },
+        "trip": {
+            "title": "Trip",
+            "description": "Complete trip of the train",
+            "properties": {
+                "isInternationalTrip": {
+                    "title": "International trip",
+                    "description": "Indicates whether this trip is an international trip",
+                    "type": "boolean"
+                },
+                "trainTypeFull": {
+                    "title": "Train type",
+                    "description": "Full name of the train type",
+                    "examples": [
+                        "Intercity"
+                    ],
+                    "type": "string"
+                },
+                "stops": {
+                    "title": "Stops",
+                    "description": "Stops of the train",
+                    "type": "array",
+                    "items": {
+                        "$ref": "timingpoint.json"
+                    }
+                }
+            }
+        },
+        "transfer": {
+            "title": "Available transfer options",
+            "description": "Available transfer options at the next station",
+            "type": "array",
+            "items": {
+                "$ref": "train.json"
+            }
+        },
+        "disturbances": {
+            "title": "Disturbances related to trip",
+            "type": "object",
+            "properties": {
+                "ev": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "ev-disturbance.json"
+                    }
+                },
+                "vtb": {
+                    "type": "array"
+                }
+            }
+        }
+    }
+}

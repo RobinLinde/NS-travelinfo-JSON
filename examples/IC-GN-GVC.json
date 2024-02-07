@@ -1,0 +1,266 @@
+{
+    "currentStation": "n/a",
+    "nextStation": "LLS",
+    "splitCombineContent": "",
+    "displayArrivalTimes": true,
+    "displayTravelInformation": true,
+    "finalDestination": {
+        "code": "GVC",
+        "type": "6",
+        "latitude": "52.0802764892578",
+        "longitude": "4.32499980926514",
+        "languages": {
+            "nl": {
+                "shortName": "Den Haag C",
+                "middleName": "Den Haag C.",
+                "longName": "Den Haag Centraal"
+            }
+        },
+        "defaultLanguageCode": "nl"
+    },
+    "phase": 0,
+    "trip": {
+        "isInternationalTrip": false,
+        "trainTypeFull": "Intercity",
+        "stops": [
+            {
+                "station": {
+                    "code": "GN",
+                    "type": "5",
+                    "latitude": "53.2105560302734",
+                    "longitude": "6.56472206115723",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Groningen",
+                            "middleName": "Groningen",
+                            "longName": "Groningen"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "gn",
+                "stationType": "r",
+                "platform": "7",
+                "platFormChanged": false,
+                "fromDateTime": "February, 07 2024 15:49:08 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 07 2024 17:03:10 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "ASN",
+                    "type": "5",
+                    "latitude": "52.9916648864746",
+                    "longitude": "6.57083320617676",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Assen",
+                            "middleName": "Assen",
+                            "longName": "Assen"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "asn",
+                "stationType": "r",
+                "platform": "1",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 16:13:21 +0100",
+                "fromDateTime": "February, 07 2024 16:13:21 +0100",
+                "arrivalDelay": 7,
+                "fromDelay": 7,
+                "dataDateTime": "February, 07 2024 17:03:10 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "ZL",
+                    "type": "5",
+                    "latitude": "52.5047225952148",
+                    "longitude": "6.09194421768188",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Zwolle",
+                            "middleName": "Zwolle",
+                            "longName": "Zwolle"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "zl",
+                "stationType": "r",
+                "platform": "3",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 16:48:28 +0100",
+                "fromDateTime": "February, 07 2024 16:50:10 +0100",
+                "arrivalDelay": 3,
+                "fromDelay": 3,
+                "dataDateTime": "February, 07 2024 17:03:10 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "LLS",
+                    "type": "5",
+                    "latitude": "52.5077781677246",
+                    "longitude": "5.47277784347534",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Lelystad C",
+                            "middleName": "Lelystad C.",
+                            "longName": "Lelystad Centrum"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "lls",
+                "stationType": "r",
+                "platform": "1",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 17:14:48 +0100",
+                "fromDateTime": "February, 07 2024 17:15:48 +0100",
+                "arrivalDelay": 2,
+                "fromDelay": 2,
+                "dataDateTime": "February, 07 2024 17:03:10 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "ALM",
+                    "type": "5",
+                    "latitude": "52.37503",
+                    "longitude": "5.21764",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Almere C",
+                            "middleName": "Almere C.",
+                            "longName": "Almere Centrum"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "alm",
+                "stationType": "r",
+                "platform": "1",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 17:27:45 +0100",
+                "fromDateTime": "February, 07 2024 17:29:45 +0100",
+                "arrivalDelay": 1,
+                "fromDelay": 1,
+                "dataDateTime": "February, 07 2024 17:03:10 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "ASDZ",
+                    "type": "4",
+                    "latitude": "52.338889",
+                    "longitude": "4.872356",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Amsterdm Z",
+                            "middleName": "Amsterdam Zuid",
+                            "longName": "Amsterdam Zuid"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "asdz",
+                "stationType": "r",
+                "platform": "4",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 17:47:11 +0100",
+                "fromDateTime": "February, 07 2024 17:48:11 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 07 2024 17:03:10 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "SHL",
+                    "type": "6",
+                    "latitude": "52.3094444274902",
+                    "longitude": "4.76194429397583",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Schiphol",
+                            "middleName": "Schiphol Airport",
+                            "longName": "Schiphol Airport"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "shl",
+                "stationType": "r",
+                "platform": "5-6",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 17:54:00 +0100",
+                "fromDateTime": "February, 07 2024 17:57:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 07 2024 17:03:10 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "LEDN",
+                    "type": "5",
+                    "latitude": "52.1661109924316",
+                    "longitude": "4.48166656494141",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Leiden C",
+                            "middleName": "Leiden C.",
+                            "longName": "Leiden Centraal"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "ledn",
+                "stationType": "r",
+                "platform": "9b",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 18:13:00 +0100",
+                "fromDateTime": "February, 07 2024 18:15:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 07 2024 17:03:10 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "GVC",
+                    "type": "6",
+                    "latitude": "52.0802764892578",
+                    "longitude": "4.32499980926514",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Den Haag C",
+                            "middleName": "Den Haag C.",
+                            "longName": "Den Haag Centraal"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "gvc",
+                "stationType": "r",
+                "platform": "9",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 18:26:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 07 2024 17:03:10 +0100",
+                "beanFactory": {}
+            }
+        ],
+        "tripLanguages": []
+    },
+    "transfer": [],
+    "disturbances": {
+        "ev": [],
+        "vtb": []
+    }
+}

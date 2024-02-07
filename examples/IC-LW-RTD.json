@@ -1,0 +1,374 @@
+{
+    "currentStation": "n/a",
+    "nextStation": "AMF",
+    "splitCombineContent": "",
+    "displayArrivalTimes": true,
+    "displayTravelInformation": true,
+    "finalDestination": {
+        "code": "RTD",
+        "type": "6",
+        "latitude": "51.9249992370605",
+        "longitude": "4.46888875961304",
+        "languages": {
+            "nl": {
+                "shortName": "Rotterdm C",
+                "middleName": "Rotterdam C.",
+                "longName": "Rotterdam Centraal"
+            }
+        },
+        "defaultLanguageCode": "nl"
+    },
+    "phase": 0,
+    "trip": {
+        "isInternationalTrip": false,
+        "trainTypeFull": "Intercity",
+        "stops": [
+            {
+                "station": {
+                    "code": "LW",
+                    "type": "5",
+                    "latitude": "53.1958351135254",
+                    "longitude": "5.79222202301025",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Leeuwarden",
+                            "middleName": "Leeuwarden",
+                            "longName": "Leeuwarden"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "lw",
+                "stationType": "r",
+                "platform": "4",
+                "platFormChanged": false,
+                "fromDateTime": "February, 01 2024 08:47:13 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 01 2024 09:52:18 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "HR",
+                    "type": "4",
+                    "latitude": "52.9613876342773",
+                    "longitude": "5.91416645050049",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Heerenveen",
+                            "middleName": "Heerenveen",
+                            "longName": "Heerenveen"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "hr",
+                "stationType": "r",
+                "platform": "3",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 01 2024 09:04:32 +0100",
+                "fromDateTime": "February, 01 2024 09:04:32 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 01 2024 09:52:18 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "SWK",
+                    "type": "4",
+                    "latitude": "52.7915109924316",
+                    "longitude": "6.11455576324463",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Steenwijk",
+                            "middleName": "Steenwijk",
+                            "longName": "Steenwijk"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "swk",
+                "stationType": "r",
+                "platform": "1",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 01 2024 09:17:49 +0100",
+                "fromDateTime": "February, 01 2024 09:17:49 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 01 2024 09:52:18 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "MP",
+                    "type": "1",
+                    "latitude": "52.6908340454102",
+                    "longitude": "6.19750022888184",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Meppel",
+                            "middleName": "Meppel",
+                            "longName": "Meppel"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "mp",
+                "stationType": "r",
+                "platform": "2",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 01 2024 09:27:00 +0100",
+                "fromDateTime": "February, 01 2024 09:27:00 +0100",
+                "arrivalDelay": 1,
+                "fromDelay": 1,
+                "dataDateTime": "February, 01 2024 09:52:18 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "ZL",
+                    "type": "5",
+                    "latitude": "52.5047225952148",
+                    "longitude": "6.09194421768188",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Zwolle",
+                            "middleName": "Zwolle",
+                            "longName": "Zwolle"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "zl",
+                "stationType": "r",
+                "platform": "5",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 01 2024 09:42:00 +0100",
+                "fromDateTime": "February, 01 2024 09:50:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 01 2024 09:52:18 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "AMF",
+                    "type": "5",
+                    "latitude": "52.1538887023926",
+                    "longitude": "5.37055540084839",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Amersfrt C",
+                            "middleName": "Amersfoort C.",
+                            "longName": "Amersfoort Centraal"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "amf",
+                "stationType": "r",
+                "platform": "6",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 01 2024 10:25:00 +0100",
+                "fromDateTime": "February, 01 2024 10:28:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 01 2024 09:52:18 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "UT",
+                    "type": "6",
+                    "latitude": "52.0888900756836",
+                    "longitude": "5.11027765274048",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Utrecht C",
+                            "middleName": "Utrecht C.",
+                            "longName": "Utrecht Centraal"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "ut",
+                "stationType": "r",
+                "platform": "8",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 01 2024 10:41:00 +0100",
+                "fromDateTime": "February, 01 2024 10:48:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 01 2024 09:52:18 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "GD",
+                    "type": "5",
+                    "latitude": "52.0175018310547",
+                    "longitude": "4.70444440841675",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Gouda",
+                            "middleName": "Gouda",
+                            "longName": "Gouda"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "gd",
+                "stationType": "r",
+                "platform": "8",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 01 2024 11:05:00 +0100",
+                "fromDateTime": "February, 01 2024 11:06:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 01 2024 09:52:18 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "RTA",
+                    "type": "4",
+                    "latitude": "51.9519462585449",
+                    "longitude": "4.55361127853394",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Alexander",
+                            "middleName": "Alexander",
+                            "longName": "Rotterdam Alexander"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "rta",
+                "stationType": "r",
+                "platform": "2",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 01 2024 11:16:00 +0100",
+                "fromDateTime": "February, 01 2024 11:16:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 01 2024 09:52:18 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "RTD",
+                    "type": "6",
+                    "latitude": "51.9249992370605",
+                    "longitude": "4.46888875961304",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Rotterdm C",
+                            "middleName": "Rotterdam C.",
+                            "longName": "Rotterdam Centraal"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "rtd",
+                "stationType": "r",
+                "platform": "14",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 01 2024 11:25:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 01 2024 09:52:18 +0100",
+                "beanFactory": {}
+            }
+        ],
+        "tripLanguages": []
+    },
+    "transfer": [
+        {
+            "trainNumber": "1532",
+            "trainType": "IC",
+            "trainTypeFull": "Intercity",
+            "fromDateTime": "February, 01 2024 10:26:00 +0100",
+            "fromPlatform": "7",
+            "platFormChanged": false,
+            "finalDestination": [
+                {
+                    "code": "ASD",
+                    "type": "6",
+                    "latitude": "52.3788871765137",
+                    "longitude": "4.90027761459351",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Amsterdm C",
+                            "middleName": "Amsterdam C.",
+                            "longName": "Amsterdam Centraal"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                }
+            ],
+            "fromDelay": 0,
+            "dataDateTime": "February, 01 2024 09:52:40 +0100",
+            "beanFactory": {}
+        },
+        {
+            "trainNumber": "5832",
+            "trainType": "SPR",
+            "trainTypeFull": "Sprinter",
+            "fromDateTime": "February, 01 2024 10:31:00 +0100",
+            "fromPlatform": "7",
+            "platFormChanged": false,
+            "finalDestination": [
+                {
+                    "code": "HFD",
+                    "type": "0",
+                    "latitude": "52.2933349609375",
+                    "longitude": "4.70055532455444",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Hoofddorp",
+                            "middleName": "Hoofddorp",
+                            "longName": "Hoofddorp"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                }
+            ],
+            "fromDelay": 0,
+            "dataDateTime": "February, 01 2024 09:52:40 +0100",
+            "beanFactory": {}
+        },
+        {
+            "trainNumber": "5632",
+            "trainType": "SPR",
+            "trainTypeFull": "Sprinter",
+            "fromDateTime": "February, 01 2024 10:49:00 +0100",
+            "fromPlatform": "6",
+            "platFormChanged": false,
+            "finalDestination": [
+                {
+                    "code": "UT",
+                    "type": "6",
+                    "latitude": "52.0888900756836",
+                    "longitude": "5.11027765274048",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Utrecht C",
+                            "middleName": "Utrecht C.",
+                            "longName": "Utrecht Centraal"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                }
+            ],
+            "fromDelay": 0,
+            "dataDateTime": "February, 01 2024 09:52:40 +0100",
+            "beanFactory": {}
+        }
+    ],
+    "disturbances": {
+        "ev": [],
+        "vtb": []
+    }
+}

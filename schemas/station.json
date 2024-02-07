@@ -1,0 +1,72 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Train station",
+    "description": "Basic details about a train station",
+    "type": "object",
+    "properties": {
+        "code": {
+            "title": "Station Telegraph Code",
+            "type": "string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "latitude": {
+            "title": "Latitude",
+            "description": "Latitude of the station in decimal degrees",
+            "type": "string"
+        },
+        "longitude": {
+            "title": "Longitude",
+            "description": "Longitude of the station in decimal degrees",
+            "type": "string"
+        },
+        "languages": {
+            "title": "Localized names",
+            "description": "Currently only features Dutch",
+            "properties": {
+                "nl": {
+                    "title": "Dutch station names",
+                    "type": "object",
+                    "properties": {
+                        "shortName": {
+                            "title": "Short name of station",
+                            "examples": [
+                                "Rotterdm C",
+                                "Amersfrt C",
+                                "Utrecht C",
+                                "Alexander"
+                            ],
+                            "type": "string"
+                        },
+                        "middleName": {
+                            "title": "Middle long name of station",
+                            "examples": [
+                                "Rotterdam C.",
+                                "Amersfoort C.",
+                                "Utrecht C.",
+                                "Alexander"
+                            ],
+                            "type": "string"
+                        },
+                        "longName": {
+                            "title": "Full name of station",
+                            "examples": [
+                                "Rotterdam Centraal",
+                                "Amersfoort Centraal",
+                                "Utrecht Centraal",
+                                "Rotterdam Alexander"
+                            ],
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "defaultLanguageCode": {
+            "title": "Default language code to use",
+            "description": "Hard-coded nl?",
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Train",
+    "description": "Train for transfers",
+    "type": "object",
+    "properties": {
+        "trainNumber": {
+            "title": "Train number",
+            "type": "string"
+        },
+        "trainType": {
+            "title": "Train type",
+            "description": "3-letter code for train type",
+            "type": "string"
+        },
+        "trainTypeFull": {
+            "title": "Train type",
+            "description": "Full-text train type",
+            "type": "string"
+        },
+        "fromDateTime": {
+            "title": "From date and time",
+            "description": "Date and time at which the train will depart from the station, formatted as Month, Day Year Hour:Minute:Second Timezone(+0200). Delay is included in this time",
+            "examples": [
+                "February, 07 2024 18:34:29 +0100"
+            ],
+            "type": "string"
+        },
+        "platFormChanged": {
+            "title": "Changed platform",
+            "description": "Indicates whether the platform has changed",
+            "type": "boolean"
+        },
+        "finalDestination": {
+            "type": "array",
+            "items": {
+                "$ref": "station.json"
+            }
+        },
+        "fromDelay": {
+            "title": "Departure delay",
+            "description": "Delay in minutes for departure time",
+            "type": "integer"
+        },
+        "dataDateTime": {
+            "title": "Updated at",
+            "description": "Date and time at which the data was last updated, formatted as Month, Day Year Hour:Minute:Second Timezone(+0200)",
+            "examples": [
+                "February, 07 2024 18:47:57 +0100"
+            ],
+            "type": "string"
+        },
+        "beanFactory": {
+            "type": "object"
+        }
+    }
+}

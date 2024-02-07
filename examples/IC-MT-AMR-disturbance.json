@@ -1,0 +1,983 @@
+{
+    "currentStation": "n/a",
+    "nextStation": "UT",
+    "splitCombineContent": "",
+    "displayArrivalTimes": true,
+    "displayTravelInformation": true,
+    "finalDestination": {
+        "code": "AMR",
+        "uic": "8400050",
+        "type": "5",
+        "latitude": "52.6377792358398",
+        "longitude": "4.73972225189209",
+        "languages": {
+            "nl": {
+                "shortName": "Alkmaar",
+                "middleName": "Alkmaar",
+                "longName": "Alkmaar"
+            }
+        },
+        "defaultLanguageCode": "nl"
+    },
+    "phase": 0,
+    "trip": {
+        "isInternationalTrip": false,
+        "trainTypeFull": "Intercity",
+        "stops": [
+            {
+                "station": {
+                    "code": "MT",
+                    "uic": "8400424",
+                    "type": "5",
+                    "latitude": "50.8502769470215",
+                    "longitude": "5.70555543899536",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Maastricht",
+                            "middleName": "Maastricht",
+                            "longName": "Maastricht"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "mt",
+                "stationType": "r",
+                "platform": "1",
+                "platFormChanged": false,
+                "fromDateTime": "February, 06 2024 12:31:14 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 06 2024 14:01:19 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "STD",
+                    "uic": "8400564",
+                    "type": "5",
+                    "latitude": "51.0016670227051",
+                    "longitude": "5.85861110687256",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Sittard",
+                            "middleName": "Sittard",
+                            "longName": "Sittard"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "std",
+                "stationType": "r",
+                "platform": "2b",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 06 2024 12:46:00 +0100",
+                "fromDateTime": "February, 06 2024 12:47:35 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 06 2024 14:01:19 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "RM",
+                    "uic": "8400523",
+                    "type": "5",
+                    "latitude": "51.1930541992188",
+                    "longitude": "5.9941668510437",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Roermond",
+                            "middleName": "Roermond",
+                            "longName": "Roermond"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "rm",
+                "stationType": "r",
+                "platform": "2",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 06 2024 13:01:21 +0100",
+                "fromDateTime": "February, 06 2024 13:02:45 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 06 2024 14:01:19 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "WT",
+                    "uic": "8400684",
+                    "type": "4",
+                    "latitude": "51.2486114501953",
+                    "longitude": "5.70361089706421",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Weert",
+                            "middleName": "Weert",
+                            "longName": "Weert"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "wt",
+                "stationType": "r",
+                "platform": "2",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 06 2024 13:16:27 +0100",
+                "fromDateTime": "February, 06 2024 13:16:27 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 06 2024 14:01:19 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "EHV",
+                    "uic": "8400206",
+                    "type": "6",
+                    "latitude": "51.4433326721191",
+                    "longitude": "5.48138904571533",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Eindhovn C",
+                            "middleName": "Eindhoven C.",
+                            "longName": "Eindhoven Centraal"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "ehv",
+                "stationType": "r",
+                "platform": "4",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 06 2024 13:32:00 +0100",
+                "fromDateTime": "February, 06 2024 13:36:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 06 2024 14:01:19 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "HT",
+                    "uic": "8400319",
+                    "type": "5",
+                    "latitude": "51.69048",
+                    "longitude": "5.29362",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Den Bosch",
+                            "middleName": "'s-Hertogenbosch",
+                            "longName": "'s-Hertogenbosch"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "ht",
+                "stationType": "r",
+                "platform": "3",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 06 2024 13:55:00 +0100",
+                "fromDateTime": "February, 06 2024 13:58:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 06 2024 14:01:19 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "UT",
+                    "uic": "8400621",
+                    "type": "6",
+                    "latitude": "52.0888900756836",
+                    "longitude": "5.11027765274048",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Utrecht C",
+                            "middleName": "Utrecht C.",
+                            "longName": "Utrecht Centraal"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "ut",
+                "stationType": "r",
+                "platform": "7",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 06 2024 14:27:00 +0100",
+                "fromDateTime": "February, 06 2024 14:29:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 06 2024 14:01:19 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "ASA",
+                    "uic": "8400057",
+                    "type": "4",
+                    "latitude": "52.3466682434082",
+                    "longitude": "4.91777801513672",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Amstel",
+                            "middleName": "Amstel",
+                            "longName": "Amsterdam Amstel"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "asa",
+                "stationType": "r",
+                "platform": "1",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 06 2024 14:47:00 +0100",
+                "fromDateTime": "February, 06 2024 14:47:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 06 2024 14:01:19 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "ASD",
+                    "uic": "8400058",
+                    "type": "6",
+                    "latitude": "52.3788871765137",
+                    "longitude": "4.90027761459351",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Amsterdm C",
+                            "middleName": "Amsterdam C.",
+                            "longName": "Amsterdam Centraal"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "asd",
+                "stationType": "r",
+                "platform": "8a",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 06 2024 14:55:00 +0100",
+                "fromDateTime": "February, 06 2024 14:58:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 06 2024 14:01:19 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "ASS",
+                    "uic": "8400059",
+                    "type": "5",
+                    "latitude": "52.3888893127441",
+                    "longitude": "4.83777761459351",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Sloterdijk",
+                            "middleName": "Sloterdijk",
+                            "longName": "Amsterdam Sloterdijk"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "ass",
+                "stationType": "r",
+                "platform": "4",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 06 2024 15:03:00 +0100",
+                "fromDateTime": "February, 06 2024 15:05:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 06 2024 14:01:19 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "ZD",
+                    "uic": "8400731",
+                    "type": "5",
+                    "latitude": "52.4388885498047",
+                    "longitude": "4.81361103057861",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Zaandam",
+                            "middleName": "Zaandam",
+                            "longName": "Zaandam"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "zd",
+                "stationType": "r",
+                "platform": "2",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 06 2024 15:12:00 +0100",
+                "fromDateTime": "February, 06 2024 15:12:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 06 2024 14:01:19 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "CAS",
+                    "uic": "8400151",
+                    "type": "4",
+                    "latitude": "52.5458335876465",
+                    "longitude": "4.65861129760742",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Castricum",
+                            "middleName": "Castricum",
+                            "longName": "Castricum"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "cas",
+                "stationType": "r",
+                "platform": "1",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 06 2024 15:24:00 +0100",
+                "fromDateTime": "February, 06 2024 15:24:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 06 2024 14:01:19 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "AMR",
+                    "uic": "8400050",
+                    "type": "5",
+                    "latitude": "52.6377792358398",
+                    "longitude": "4.73972225189209",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Alkmaar",
+                            "middleName": "Alkmaar",
+                            "longName": "Alkmaar"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "amr",
+                "stationType": "r",
+                "platform": "5",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 06 2024 15:33:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 06 2024 14:01:19 +0100",
+                "beanFactory": {}
+            }
+        ],
+        "tripLanguages": []
+    },
+    "transfer": [
+        {
+            "trainNumber": "1751",
+            "trainType": "IC",
+            "trainTypeFull": "Intercity",
+            "fromDateTime": "February, 06 2024 14:37:00 +0100",
+            "fromPlatform": "12",
+            "platFormChanged": false,
+            "finalDestination": [
+                {
+                    "code": "ES",
+                    "uic": "8400212",
+                    "type": "5",
+                    "latitude": "52.2224998474121",
+                    "longitude": "6.8899998664856",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Enschede",
+                            "middleName": "Enschede",
+                            "longName": "Enschede"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                }
+            ],
+            "fromDelay": 0,
+            "dataDateTime": "February, 06 2024 14:01:18 +0100",
+            "beanFactory": {}
+        },
+        {
+            "trainNumber": "3548",
+            "trainType": "IC",
+            "trainTypeFull": "Intercity",
+            "fromDateTime": "February, 06 2024 14:42:00 +0100",
+            "fromPlatform": "7",
+            "platFormChanged": false,
+            "finalDestination": [
+                {
+                    "code": "DDR",
+                    "uic": "8400180",
+                    "type": "5",
+                    "latitude": "51.8072204589844",
+                    "longitude": "4.66833353042603",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Dordrecht",
+                            "middleName": "Dordrecht",
+                            "longName": "Dordrecht"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                }
+            ],
+            "fromDelay": 0,
+            "dataDateTime": "February, 06 2024 14:01:18 +0100",
+            "beanFactory": {}
+        },
+        {
+            "trainNumber": "2046",
+            "trainType": "IC",
+            "trainTypeFull": "Intercity",
+            "fromDateTime": "February, 06 2024 14:43:00 +0100",
+            "fromPlatform": "9",
+            "platFormChanged": false,
+            "finalDestination": [
+                {
+                    "code": "GVC",
+                    "uic": "8400282",
+                    "type": "6",
+                    "latitude": "52.0802764892578",
+                    "longitude": "4.32499980926514",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Den Haag C",
+                            "middleName": "Den Haag C.",
+                            "longName": "Den Haag Centraal"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                }
+            ],
+            "fromDelay": 0,
+            "dataDateTime": "February, 06 2024 14:01:18 +0100",
+            "beanFactory": {}
+        },
+        {
+            "trainNumber": "551",
+            "trainType": "IC",
+            "trainTypeFull": "Intercity",
+            "fromDateTime": "February, 06 2024 14:49:00 +0100",
+            "fromPlatform": "12",
+            "platFormChanged": false,
+            "finalDestination": [
+                {
+                    "code": "GN",
+                    "uic": "8400263",
+                    "type": "5",
+                    "latitude": "53.2105560302734",
+                    "longitude": "6.56472206115723",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Groningen",
+                            "middleName": "Groningen",
+                            "longName": "Groningen"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                }
+            ],
+            "fromDelay": 0,
+            "dataDateTime": "February, 06 2024 14:01:18 +0100",
+            "beanFactory": {}
+        }
+    ],
+    "disturbances": {
+        "ev": [
+            {
+                "locationForPresentation": "Amsterdam-Utrecht; Amsterdam-Gouda",
+                "situationForPresentation": "Tussen Amsterdam Centraal en Breukelen rijden er geen Sprinters door een wisselstoring.",
+                "periodForPresentation": "",
+                "delaySummaryForPresentation": "De extra reistijd is meer dan 60 minuten.",
+                "prognosisForPresentation": "Dit duurt de rest van de dag.",
+                "alternativeTransportForPresentation": [
+                    "Maak gebruik van de Amsterdamse metro lijn 54 tussen Amsterdam Holendrecht, Amsterdam Bijlmer ArenA, Duivendrecht, Amsterdam Amstel en Amsterdam Centraal."
+                ],
+                "additionalAdviceForPresentation": "",
+                "detourAdviceForPresentation": [],
+                "urgentAdviceForPresentation": "",
+                "showScrollBar": true,
+                "disturbancePhase": "3",
+                "disturbanceImpact": 2,
+                "disturbanceType": "EV",
+                "sectionLimitation": [
+                    {
+                        "originStation": {
+                            "code": "ASD",
+                            "uic": "8400058",
+                            "type": "6",
+                            "latitude": "52.3788871765137",
+                            "longitude": "4.90027761459351",
+                            "languages": {
+                                "nl": {
+                                    "shortName": "Amsterdm C",
+                                    "middleName": "Amsterdam C.",
+                                    "longName": "Amsterdam Centraal"
+                                }
+                            },
+                            "defaultLanguageCode": "nl"
+                        },
+                        "destinationStation": {
+                            "code": "BKL",
+                            "uic": "8400133",
+                            "type": "1",
+                            "latitude": "52.17149",
+                            "longitude": "4.9906",
+                            "languages": {
+                                "nl": {
+                                    "shortName": "Breukelen",
+                                    "middleName": "Breukelen",
+                                    "longName": "Breukelen"
+                                }
+                            },
+                            "defaultLanguageCode": "nl"
+                        },
+                        "direction": "Both",
+                        "trajectory": [
+                            {
+                                "code": "73",
+                                "type": "NL",
+                                "fromStation": {
+                                    "code": "ASD",
+                                    "uic": "8400058",
+                                    "type": "6",
+                                    "latitude": "52.3788871765137",
+                                    "longitude": "4.90027761459351",
+                                    "languages": {
+                                        "nl": {
+                                            "shortName": "Amsterdm C",
+                                            "middleName": "Amsterdam C.",
+                                            "longName": "Amsterdam Centraal"
+                                        }
+                                    },
+                                    "defaultLanguageCode": "nl"
+                                },
+                                "toStation": {
+                                    "code": "UT",
+                                    "uic": "8400621",
+                                    "type": "6",
+                                    "latitude": "52.0888900756836",
+                                    "longitude": "5.11027765274048",
+                                    "languages": {
+                                        "nl": {
+                                            "shortName": "Utrecht C",
+                                            "middleName": "Utrecht C.",
+                                            "longName": "Utrecht Centraal"
+                                        }
+                                    },
+                                    "defaultLanguageCode": "nl"
+                                },
+                                "stations": [
+                                    {
+                                        "code": "ASD",
+                                        "uic": "8400058",
+                                        "type": "6",
+                                        "latitude": "52.3788871765137",
+                                        "longitude": "4.90027761459351",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Amsterdm C",
+                                                "middleName": "Amsterdam C.",
+                                                "longName": "Amsterdam Centraal"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "ASDM",
+                                        "uic": "8400060",
+                                        "type": "0",
+                                        "latitude": "52.3605537414551",
+                                        "longitude": "4.93111133575439",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Muiderprt",
+                                                "middleName": "Muiderpoort",
+                                                "longName": "Amsterdam Muiderpoort"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "ASA",
+                                        "uic": "8400057",
+                                        "type": "4",
+                                        "latitude": "52.3466682434082",
+                                        "longitude": "4.91777801513672",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Amstel",
+                                                "middleName": "Amstel",
+                                                "longName": "Amsterdam Amstel"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "DVD",
+                                        "uic": "8400194",
+                                        "type": "1",
+                                        "latitude": "52.3233337402344",
+                                        "longitude": "4.93638896942139",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Duivendrt",
+                                                "middleName": "Duivendrecht",
+                                                "longName": "Duivendrecht"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "ASB",
+                                        "uic": "8400074",
+                                        "type": "1",
+                                        "latitude": "52.3122215270996",
+                                        "longitude": "4.94694423675537",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Bijlmer A",
+                                                "middleName": "Bijlmer ArenA",
+                                                "longName": "Amsterdam Bijlmer ArenA"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "ASHD",
+                                        "uic": "8400231",
+                                        "type": "0",
+                                        "latitude": "52.29844",
+                                        "longitude": "4.95972",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Holendrcht",
+                                                "middleName": "Holendrecht",
+                                                "longName": "Amsterdam Holendrecht"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "AC",
+                                        "uic": "8400047",
+                                        "type": "0",
+                                        "latitude": "52.2785",
+                                        "longitude": "4.977",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Abcoude",
+                                                "middleName": "Abcoude",
+                                                "longName": "Abcoude"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "BKL",
+                                        "uic": "8400133",
+                                        "type": "1",
+                                        "latitude": "52.17149",
+                                        "longitude": "4.9906",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Breukelen",
+                                                "middleName": "Breukelen",
+                                                "longName": "Breukelen"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "MAS",
+                                        "uic": "8400419",
+                                        "type": "0",
+                                        "latitude": "52.1352767944336",
+                                        "longitude": "5.03361129760742",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Maarssen",
+                                                "middleName": "Maarssen",
+                                                "longName": "Maarssen"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "UTZL",
+                                        "uic": "8400613",
+                                        "type": "0",
+                                        "latitude": "52.103055",
+                                        "longitude": "5.09",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Zuilen",
+                                                "middleName": "Zuilen",
+                                                "longName": "Utrecht Zuilen"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "UT",
+                                        "uic": "8400621",
+                                        "type": "6",
+                                        "latitude": "52.0888900756836",
+                                        "longitude": "5.11027765274048",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Utrecht C",
+                                                "middleName": "Utrecht C.",
+                                                "longName": "Utrecht Centraal"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    }
+                                ],
+                                "location": "VolledigNL",
+                                "tripCount": 40000,
+                                "carrier": [
+                                    "NS"
+                                ]
+                            },
+                            {
+                                "code": "93",
+                                "type": "NL",
+                                "fromStation": {
+                                    "code": "ASD",
+                                    "uic": "8400058",
+                                    "type": "6",
+                                    "latitude": "52.3788871765137",
+                                    "longitude": "4.90027761459351",
+                                    "languages": {
+                                        "nl": {
+                                            "shortName": "Amsterdm C",
+                                            "middleName": "Amsterdam C.",
+                                            "longName": "Amsterdam Centraal"
+                                        }
+                                    },
+                                    "defaultLanguageCode": "nl"
+                                },
+                                "toStation": {
+                                    "code": "GD",
+                                    "uic": "8400258",
+                                    "type": "5",
+                                    "latitude": "52.0175018310547",
+                                    "longitude": "4.70444440841675",
+                                    "languages": {
+                                        "nl": {
+                                            "shortName": "Gouda",
+                                            "middleName": "Gouda",
+                                            "longName": "Gouda"
+                                        }
+                                    },
+                                    "defaultLanguageCode": "nl"
+                                },
+                                "stations": [
+                                    {
+                                        "code": "ASD",
+                                        "uic": "8400058",
+                                        "type": "6",
+                                        "latitude": "52.3788871765137",
+                                        "longitude": "4.90027761459351",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Amsterdm C",
+                                                "middleName": "Amsterdam C.",
+                                                "longName": "Amsterdam Centraal"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "ASDM",
+                                        "uic": "8400060",
+                                        "type": "0",
+                                        "latitude": "52.3605537414551",
+                                        "longitude": "4.93111133575439",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Muiderprt",
+                                                "middleName": "Muiderpoort",
+                                                "longName": "Amsterdam Muiderpoort"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "ASA",
+                                        "uic": "8400057",
+                                        "type": "4",
+                                        "latitude": "52.3466682434082",
+                                        "longitude": "4.91777801513672",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Amstel",
+                                                "middleName": "Amstel",
+                                                "longName": "Amsterdam Amstel"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "DVD",
+                                        "uic": "8400194",
+                                        "type": "1",
+                                        "latitude": "52.3233337402344",
+                                        "longitude": "4.93638896942139",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Duivendrt",
+                                                "middleName": "Duivendrecht",
+                                                "longName": "Duivendrecht"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "ASB",
+                                        "uic": "8400074",
+                                        "type": "1",
+                                        "latitude": "52.3122215270996",
+                                        "longitude": "4.94694423675537",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Bijlmer A",
+                                                "middleName": "Bijlmer ArenA",
+                                                "longName": "Amsterdam Bijlmer ArenA"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "ASHD",
+                                        "uic": "8400231",
+                                        "type": "0",
+                                        "latitude": "52.29844",
+                                        "longitude": "4.95972",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Holendrcht",
+                                                "middleName": "Holendrecht",
+                                                "longName": "Amsterdam Holendrecht"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "AC",
+                                        "uic": "8400047",
+                                        "type": "0",
+                                        "latitude": "52.2785",
+                                        "longitude": "4.977",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Abcoude",
+                                                "middleName": "Abcoude",
+                                                "longName": "Abcoude"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "BKL",
+                                        "uic": "8400133",
+                                        "type": "1",
+                                        "latitude": "52.17149",
+                                        "longitude": "4.9906",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Breukelen",
+                                                "middleName": "Breukelen",
+                                                "longName": "Breukelen"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "WD",
+                                        "uic": "8400702",
+                                        "type": "1",
+                                        "latitude": "52.0849990844727",
+                                        "longitude": "4.89361095428467",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Woerden",
+                                                "middleName": "Woerden",
+                                                "longName": "Woerden"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "GDG",
+                                        "uic": "8400257",
+                                        "type": "0",
+                                        "latitude": "52.0149993896484",
+                                        "longitude": "4.7408332824707",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Goverwelle",
+                                                "middleName": "Goverwelle",
+                                                "longName": "Gouda Goverwelle"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "GD",
+                                        "uic": "8400258",
+                                        "type": "5",
+                                        "latitude": "52.0175018310547",
+                                        "longitude": "4.70444440841675",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Gouda",
+                                                "middleName": "Gouda",
+                                                "longName": "Gouda"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    }
+                                ],
+                                "location": "VolledigNL",
+                                "tripCount": 4000,
+                                "carrier": [
+                                    "NS"
+                                ]
+                            }
+                        ],
+                        "sectionLimitationForPresentation": "",
+                        "mediumSectionLimitationForPresentation": "",
+                        "longSectionLimitationForPresentation": ""
+                    }
+                ],
+                "mediumLocationForPresentation": "Amsterdam-Utrecht; Amsterdam-Gouda",
+                "mediumSituationForPresentation": "Tussen Amsterdam C. en Breukelen geen Sprinters wisselstoring",
+                "mediumDelaySummaryForPresentation": "Extra reistijd meer dan 60 min.",
+                "mediumPrognosisForPresentation": "Dit duurt de rest van de dag",
+                "mediumAlternativeTransportForPresentation": [
+                    "Gebruik de Amsterdamse metro lijn 54: Holendrecht, Bijlmer ArenA, Duivendrecht, Amstel, Amsterdam C."
+                ],
+                "mediumDetourAdviceForPresentation": [],
+                "shortLocationForPresentation": "",
+                "shortSituationForPresentation": "",
+                "shortDelaySummaryForPresentation": "",
+                "shortPrognosisForPresentation": "",
+                "shortAlternativeTransportForPresentation": [
+                    ""
+                ],
+                "shortDetourAdviceForPresentation": []
+            }
+        ],
+        "vtb": []
+    }
+}

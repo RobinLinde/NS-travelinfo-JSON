@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$comment": "Incomplete",
+    "title": "Disturbance",
+    "type": "object",
+    "properties": {
+        "locationForPresentation": {
+            "title": "Location",
+            "description": "User-readable location for disturbance",
+            "examples": [
+                "Meppel-Leeuwarden"
+            ],
+            "type": "string"
+        },
+        "situationForPresentation": {
+            "title": "Description",
+            "description": "User-readable description",
+            "examples": [
+                "Tussen Meppel en Wolvega is er later vandaag hinder in de treindienst door technisch onderzoek."
+            ],
+            "type": "string"
+        },
+        "periodForPresentation": {
+            "type": "string"
+        },
+        "delaySummaryForPresentation": {
+            "title": "Delay",
+            "description": "User-readable text for delay",
+            "examples": [
+                "De extra reistijd is meer dan 60 minuten."
+            ],
+            "type": "string"
+        },
+        "prognosisForPresentation": {
+            "title": "Prognosis",
+            "description": "Small description of disturbance prognosis",
+            "examples": [
+                "De treinen rijden weer normaal rond 20:00 uur."
+            ],
+            "type": "string"
+        }
+    }
+}

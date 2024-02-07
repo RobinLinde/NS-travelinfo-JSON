@@ -1,0 +1,495 @@
+{
+    "currentStation": "n/a",
+    "nextStation": "LLS",
+    "splitCombineContent": "",
+    "displayArrivalTimes": true,
+    "displayTravelInformation": true,
+    "finalDestination": {
+        "code": "GN",
+        "type": "5",
+        "latitude": "53.2105560302734",
+        "longitude": "6.56472206115723",
+        "languages": {
+            "nl": {
+                "shortName": "Groningen",
+                "middleName": "Groningen",
+                "longName": "Groningen"
+            }
+        },
+        "defaultLanguageCode": "nl"
+    },
+    "phase": 0,
+    "trip": {
+        "isInternationalTrip": false,
+        "trainTypeFull": "Intercity",
+        "stops": [
+            {
+                "station": {
+                    "code": "GVC",
+                    "type": "6",
+                    "latitude": "52.0802764892578",
+                    "longitude": "4.32499980926514",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Den Haag C",
+                            "middleName": "Den Haag C.",
+                            "longName": "Den Haag Centraal"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "gvc",
+                "stationType": "r",
+                "platform": "9",
+                "platFormChanged": false,
+                "fromDateTime": "February, 07 2024 17:33:23 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 07 2024 18:37:45 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "LEDN",
+                    "type": "5",
+                    "latitude": "52.1661109924316",
+                    "longitude": "4.48166656494141",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Leiden C",
+                            "middleName": "Leiden C.",
+                            "longName": "Leiden Centraal"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "ledn",
+                "stationType": "r",
+                "platform": "4b",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 17:45:41 +0100",
+                "fromDateTime": "February, 07 2024 17:47:36 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 07 2024 18:37:45 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "SHL",
+                    "type": "6",
+                    "latitude": "52.3094444274902",
+                    "longitude": "4.76194429397583",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Schiphol",
+                            "middleName": "Schiphol Airport",
+                            "longName": "Schiphol Airport"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "shl",
+                "stationType": "r",
+                "platform": "1",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 18:03:00 +0100",
+                "fromDateTime": "February, 07 2024 18:05:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 07 2024 18:37:45 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "ASDZ",
+                    "type": "4",
+                    "latitude": "52.338889",
+                    "longitude": "4.872356",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Amsterdm Z",
+                            "middleName": "Amsterdam Zuid",
+                            "longName": "Amsterdam Zuid"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "asdz",
+                "stationType": "r",
+                "platform": "1",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 18:11:00 +0100",
+                "fromDateTime": "February, 07 2024 18:12:29 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 07 2024 18:37:45 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "ALM",
+                    "type": "5",
+                    "latitude": "52.37503",
+                    "longitude": "5.21764",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Almere C",
+                            "middleName": "Almere C.",
+                            "longName": "Almere Centrum"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "alm",
+                "stationType": "r",
+                "platform": "4",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 18:33:00 +0100",
+                "fromDateTime": "February, 07 2024 18:34:29 +0100",
+                "arrivalDelay": 2,
+                "fromDelay": 2,
+                "dataDateTime": "February, 07 2024 18:37:45 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "LLS",
+                    "type": "5",
+                    "latitude": "52.5077781677246",
+                    "longitude": "5.47277784347534",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Lelystad C",
+                            "middleName": "Lelystad C.",
+                            "longName": "Lelystad Centrum"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "lls",
+                "stationType": "r",
+                "platform": "4",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 18:48:20 +0100",
+                "fromDateTime": "February, 07 2024 18:49:20 +0100",
+                "arrivalDelay": 2,
+                "fromDelay": 2,
+                "dataDateTime": "February, 07 2024 18:37:45 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "ZL",
+                    "type": "5",
+                    "latitude": "52.5047225952148",
+                    "longitude": "6.09194421768188",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Zwolle",
+                            "middleName": "Zwolle",
+                            "longName": "Zwolle"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "zl",
+                "stationType": "r",
+                "platform": "6",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 19:13:14 +0100",
+                "fromDateTime": "February, 07 2024 19:15:14 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 07 2024 18:37:45 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "ASN",
+                    "type": "5",
+                    "latitude": "52.9916648864746",
+                    "longitude": "6.57083320617676",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Assen",
+                            "middleName": "Assen",
+                            "longName": "Assen"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "asn",
+                "stationType": "r",
+                "platform": "3",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 19:54:00 +0100",
+                "fromDateTime": "February, 07 2024 19:54:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 07 2024 18:37:45 +0100",
+                "beanFactory": {}
+            },
+            {
+                "station": {
+                    "code": "GN",
+                    "type": "5",
+                    "latitude": "53.2105560302734",
+                    "longitude": "6.56472206115723",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Groningen",
+                            "middleName": "Groningen",
+                            "longName": "Groningen"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                },
+                "stationCode": "gn",
+                "stationType": "r",
+                "platform": "7",
+                "platFormChanged": false,
+                "arrivalDateTime": "February, 07 2024 20:11:00 +0100",
+                "arrivalDelay": 0,
+                "fromDelay": 0,
+                "dataDateTime": "February, 07 2024 18:37:45 +0100",
+                "beanFactory": {}
+            }
+        ],
+        "tripLanguages": []
+    },
+    "transfer": [
+        {
+            "trainNumber": "9067",
+            "trainType": "SPR",
+            "trainTypeFull": "Sprinter",
+            "fromDateTime": "February, 07 2024 18:54:00 +0100",
+            "fromPlatform": "3",
+            "platFormChanged": false,
+            "finalDestination": [
+                {
+                    "code": "MP",
+                    "type": "1",
+                    "latitude": "52.6908340454102",
+                    "longitude": "6.19750022888184",
+                    "languages": {
+                        "nl": {
+                            "shortName": "Meppel",
+                            "middleName": "Meppel",
+                            "longName": "Meppel"
+                        }
+                    },
+                    "defaultLanguageCode": "nl"
+                }
+            ],
+            "fromDelay": 0,
+            "dataDateTime": "February, 07 2024 18:37:41 +0100",
+            "beanFactory": {}
+        }
+    ],
+    "disturbances": {
+        "ev": [
+            {
+                "locationForPresentation": "Meppel-Leeuwarden",
+                "situationForPresentation": "Tussen Meppel en Wolvega is er later vandaag hinder in de treindienst door technisch onderzoek.",
+                "periodForPresentation": "",
+                "delaySummaryForPresentation": "",
+                "prognosisForPresentation": "De treinen rijden weer normaal rond 20:00 uur.",
+                "alternativeTransportForPresentation": [],
+                "additionalAdviceForPresentation": "Door een technisch onderzoek rijden er tussen 19:00 uur en 20:00 uur geen sprinters tussen Meppel en Wolvega..",
+                "detourAdviceForPresentation": [],
+                "urgentAdviceForPresentation": "",
+                "showScrollBar": true,
+                "disturbancePhase": "1B",
+                "disturbanceImpact": 3,
+                "disturbanceType": "EV",
+                "sectionLimitation": [
+                    {
+                        "originStation": {
+                            "code": "MP",
+                            "type": "1",
+                            "latitude": "52.6908340454102",
+                            "longitude": "6.19750022888184",
+                            "languages": {
+                                "nl": {
+                                    "shortName": "Meppel",
+                                    "middleName": "Meppel",
+                                    "longName": "Meppel"
+                                }
+                            },
+                            "defaultLanguageCode": "nl"
+                        },
+                        "destinationStation": {
+                            "code": "WV",
+                            "type": "0",
+                            "latitude": "52.8808326721191",
+                            "longitude": "6.00361108779907",
+                            "languages": {
+                                "nl": {
+                                    "shortName": "Wolvega",
+                                    "middleName": "Wolvega",
+                                    "longName": "Wolvega"
+                                }
+                            },
+                            "defaultLanguageCode": "nl"
+                        },
+                        "direction": "Both",
+                        "trajectory": [
+                            {
+                                "code": "132",
+                                "type": "NL",
+                                "fromStation": {
+                                    "code": "MP",
+                                    "type": "1",
+                                    "latitude": "52.6908340454102",
+                                    "longitude": "6.19750022888184",
+                                    "languages": {
+                                        "nl": {
+                                            "shortName": "Meppel",
+                                            "middleName": "Meppel",
+                                            "longName": "Meppel"
+                                        }
+                                    },
+                                    "defaultLanguageCode": "nl"
+                                },
+                                "toStation": {
+                                    "code": "LW",
+                                    "type": "5",
+                                    "latitude": "53.1958351135254",
+                                    "longitude": "5.79222202301025",
+                                    "languages": {
+                                        "nl": {
+                                            "shortName": "Leeuwarden",
+                                            "middleName": "Leeuwarden",
+                                            "longName": "Leeuwarden"
+                                        }
+                                    },
+                                    "defaultLanguageCode": "nl"
+                                },
+                                "stations": [
+                                    {
+                                        "code": "MP",
+                                        "type": "1",
+                                        "latitude": "52.6908340454102",
+                                        "longitude": "6.19750022888184",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Meppel",
+                                                "middleName": "Meppel",
+                                                "longName": "Meppel"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "SWK",
+                                        "type": "4",
+                                        "latitude": "52.7915109924316",
+                                        "longitude": "6.11455576324463",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Steenwijk",
+                                                "middleName": "Steenwijk",
+                                                "longName": "Steenwijk"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "WV",
+                                        "type": "0",
+                                        "latitude": "52.8808326721191",
+                                        "longitude": "6.00361108779907",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Wolvega",
+                                                "middleName": "Wolvega",
+                                                "longName": "Wolvega"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "HR",
+                                        "type": "4",
+                                        "latitude": "52.9613876342773",
+                                        "longitude": "5.91416645050049",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Heerenveen",
+                                                "middleName": "Heerenveen",
+                                                "longName": "Heerenveen"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "AKM",
+                                        "type": "0",
+                                        "latitude": "53.0463905334473",
+                                        "longitude": "5.84361124038696",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Akkrum",
+                                                "middleName": "Akkrum",
+                                                "longName": "Akkrum"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "GW",
+                                        "type": "0",
+                                        "latitude": "53.0888900756836",
+                                        "longitude": "5.82250022888184",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Grou-Jirns",
+                                                "middleName": "Grou-Jirnsum",
+                                                "longName": "Grou-Jirnsum"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    },
+                                    {
+                                        "code": "LW",
+                                        "type": "5",
+                                        "latitude": "53.1958351135254",
+                                        "longitude": "5.79222202301025",
+                                        "languages": {
+                                            "nl": {
+                                                "shortName": "Leeuwarden",
+                                                "middleName": "Leeuwarden",
+                                                "longName": "Leeuwarden"
+                                            }
+                                        },
+                                        "defaultLanguageCode": "nl"
+                                    }
+                                ],
+                                "location": "VolledigNL",
+                                "tripCount": 1000,
+                                "carrier": [
+                                    "NS"
+                                ]
+                            }
+                        ],
+                        "sectionLimitationForPresentation": "",
+                        "mediumSectionLimitationForPresentation": "",
+                        "longSectionLimitationForPresentation": ""
+                    }
+                ],
+                "mediumLocationForPresentation": "Meppel-Leeuwarden",
+                "mediumSituationForPresentation": "Tussen Meppel en Wolvega later vandaag hinder in de treindienst technisch onderzoek",
+                "mediumPrognosisForPresentation": "Treindienst normaal rond 20:00 uur",
+                "mediumAdditionalAdviceForPresentation": "Door een technisch onderzoek rijden er tussen 19:00 uur en 20:00 uur geen sprinters tussen Meppel en Wolvega",
+                "mediumDetourAdviceForPresentation": [],
+                "shortLocationForPresentation": "",
+                "shortSituationForPresentation": "",
+                "shortPrognosisForPresentation": "",
+                "shortAdditionalAdviceForPresentation": "",
+                "shortDetourAdviceForPresentation": []
+            }
+        ],
+        "vtb": []
+    }
+}
