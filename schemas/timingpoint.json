@@ -1,5 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/RobinLinde/NS-travelinfo-JSON/main/schemas/timingpoint.json",
     "title": "Stop",
     "description": "Stop in a trip",
     "type": "object",
