@@ -24,7 +24,7 @@
             "type": "boolean"
         },
         "finalDestination": {
-            "$ref": "station.json"
+            "$ref": "https://raw.githubusercontent.com/RobinLinde/NS-travelinfo-JSON/main/schemas/station.json"
         },
         "phase": {
             "type": "integer"
@@ -51,7 +51,7 @@
                     "description": "Stops of the train",
                     "type": "array",
                     "items": {
-                        "$ref": "timingpoint.json"
+                        "$ref": "https://raw.githubusercontent.com/RobinLinde/NS-travelinfo-JSON/main/schemas/timingpoint.json"
                     }
                 }
             }
@@ -61,7 +61,7 @@
             "description": "Available transfer options at the next station",
             "type": "array",
             "items": {
-                "$ref": "train.json"
+                "$ref": "https://raw.githubusercontent.com/RobinLinde/NS-travelinfo-JSON/main/schemas/train.json"
             }
         },
         "disturbances": {
@@ -71,7 +71,7 @@
                 "ev": {
                     "type": "array",
                     "items": {
-                        "$ref": "ev-disturbance.json"
+                        "$ref": "https://raw.githubusercontent.com/RobinLinde/NS-travelinfo-JSON/main/schemas/ev-disturbance.json"
                     }
                 },
                 "vtb": {

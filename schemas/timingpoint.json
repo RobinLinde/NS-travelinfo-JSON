@@ -6,7 +6,7 @@
     "type": "object",
     "properties": {
         "station": {
-            "$ref": "station.json"
+            "$ref": "https://raw.githubusercontent.com/RobinLinde/NS-travelinfo-JSON/main/schemas/station.json"
         },
         "stationCode": {
             "title": "Station Telegraph code",
