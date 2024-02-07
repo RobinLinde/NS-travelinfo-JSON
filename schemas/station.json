@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://raw.githubusercontent.com/RobinLinde/NS-travelinfo-JSON/main/schemas/station.json",
+    "$id": "https://robinlinde.github.io/NS-travelinfo-JSON/schemas/station.json",
     "title": "Train station",
     "description": "Basic details about a train station",
     "type": "object",

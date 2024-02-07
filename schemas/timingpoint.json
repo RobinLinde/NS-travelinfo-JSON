@@ -1,12 +1,12 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://raw.githubusercontent.com/RobinLinde/NS-travelinfo-JSON/main/schemas/timingpoint.json",
+    "$id": "https://robinlinde.github.io/NS-travelinfo-JSON/schemas/timingpoint.json",
     "title": "Stop",
     "description": "Stop in a trip",
     "type": "object",
     "properties": {
         "station": {
-            "$ref": "https://raw.githubusercontent.com/RobinLinde/NS-travelinfo-JSON/main/schemas/station.json"
+            "$ref": "https://robinlinde.github.io/NS-travelinfo-JSON/schemas/station.json"
         },
         "stationCode": {
             "title": "Station Telegraph code",
