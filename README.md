@@ -5,7 +5,7 @@ When connected to `WiFi in de trein` you can access the travel information via t
 
 [Schema file](./schemas/travelinfo.json)
 
-The `examples` folder contains some example data.
+The [`examples`](./examples/examples.md) folder contains some example data.
 
 ## Overview
 
